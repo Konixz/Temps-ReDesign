@@ -1,0 +1,69 @@
+body {
+	background-image: url(img/bg.jpg);
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.logo {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 20em;
+	right: 0;
+}
+
+.footer {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 45px;
+	margin-top: 80px;
+}
+
+.footer .links {
+	list-style: none;
+	color: #ffffff;
+}
+
+.footer .links a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	padding: 1em;
+	font-size: 20px;
+}
+
+.Text1 {
+	font-family: 'Archivo Narrow', sans-serif;
+	color: white;
+	position: absolute;
+	text-align: center;
+	bottom: 50%;
+	left: 0;
+	right: 0;
+	margin-bottom: 0;
+	font-size: 40px;	
+}
+
+.Text2 {
+	font-family: 'Archivo Narrow', sans-serif;
+	color: white;
+	position: absolute;
+	text-align: center;
+	bottom: 45%;
+	left: 0;
+	right: 0;
+	margin-bottom: 0;
+	font-size: 35px;
+}
